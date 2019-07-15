@@ -46,8 +46,8 @@ namespace numbers
         friend complex operator - (const complex & x, const complex & y);
         friend complex operator * (const complex & x, const complex & y);
         friend complex operator / (const complex & x, const complex & y);
-        friend complex operator - (const complex & x);
         friend complex operator ~ (const complex & x);
+        friend complex operator - (const complex & x);
     };
 
     complex operator + (const complex & x, const complex & y)
